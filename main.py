@@ -2,12 +2,37 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# 127.0.0.1:8000/
-@app.get("/")
+
+@app.get("/helloworld")
 async def root():
     return {"message": "Hello World"}
 
-# 127.0.0.1:8000/teste1
-@app.get("/teste1")
+
+@app.get("/funcaoteste1")
 async def funcaoteste():
     return {"teste": "deu certo"}
+
+@app.get("/funcaoteste002")
+async def funcaoteste():
+    return {"teste": " não deu certo"}
+
+
+@app.get("/funcaoteste003")
+async def funcaoteste():
+    return {"teste": " não deu certo, porém verificar item c "}
+
+@app.get("/funcaoteste004")
+async def funcaoteste():
+    return {"teste": " não deu certo, porém verificar item a e b "}
+
+@app.get("/funcaoteste005")
+async def funcaoteste():
+    return {"teste": " deu certo "}
+
+@app.get("/funcaoteste006")
+async def funcaoteste():
+    return {"teste": " deu certo "}
+
+@app.get("/funcaoteste007")
+async def funcaoteste():
+    return {"teste": " deu certo "}
