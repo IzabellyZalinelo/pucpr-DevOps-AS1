@@ -15,3 +15,8 @@ async def funcaoteste():
 @app.get("/funcaoteste002")
 async def funcaoteste():
     return {"teste": " não deu certo"}
+
+
+@app.get("/funcaoteste003")
+async def funcaoteste():
+    return {"teste": " não deu certo, porém verificar item c "}
