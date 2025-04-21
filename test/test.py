@@ -40,3 +40,7 @@ async def test_delete_estudante_positivo():
     await create_estudante(estudante_teste)  # Aguardar a criação
     result = await delete_estudante(5)  # Aguardar a exclusão
     assert result
+
+
+
+
