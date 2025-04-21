@@ -36,3 +36,8 @@ async def funcaoteste():
 @app.get("/funcaoteste007")
 async def funcaoteste():
     return {"teste": " deu certo "}
+
+@app.get("/funcaoteste008")
+async def funcaoteste():
+    return {"teste": " deu certo "}
+
