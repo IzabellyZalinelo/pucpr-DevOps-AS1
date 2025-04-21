@@ -35,3 +35,8 @@ async def update_estudante (id_estudante: int):
 async def delete_estudante (id_estudante: int):
     return id_estudante > 0
 
+
+
+
+
+
