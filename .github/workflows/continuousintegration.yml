@@ -24,7 +24,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4  # Use v4 (estável) ao invés de v5, que pode ser instável
         with:
-          python-version: '3.11'       # Troque para uma versão estável e suportada
+          python-version: '3.13'       # Troque para uma versão estável e suportada
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
